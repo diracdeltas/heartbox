@@ -1,4 +1,4 @@
-# Vagrant setup for Heartbleed Testing
+# Heartbox
 Sets up a basic Freebsd 10.0 VirtualBox running Apache 2.4 and OpenSSL 1.0.1e-freebsd for playing with heartbleed exploits.
 
 ## Prereqs
