@@ -17,3 +17,9 @@ Make sure Apache is up and running on the guest machine. Try going to `https://1
 Now you can run `python utils/ssltest.py 10.0.1.10` from the host machine - it should tell you that the server is vulnerable!
 
 `ssltest-multiple-tls.py` sequentially attempts different heartbeat payloads in case a server doesn't accept the usual one (which reportedly fails on servers that do not support TLS 1.2).
+
+## Winners
+Did you leak the private key? Email yan at eff dot org with steps to reproduce the attack for a special prize.
+
+## License
+GPLv3
